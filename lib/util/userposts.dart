@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Userposts extends StatelessWidget {
   final String name;
-  Userposts({required this.name});
+  const Userposts({required this.name});
 
   @override
   Widget build(BuildContext context) {
